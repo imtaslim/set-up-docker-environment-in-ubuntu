@@ -134,7 +134,7 @@ Alternative you can login into the conatiner and run the commands from there:
 sudo docker compose exec -u buildkit civicrm bash
 ~~~
 
-# Create a Daemon file
+# Create Daemon file
 ~~~
 sudo touch /etc/docker/daemon.json
 ~~~
