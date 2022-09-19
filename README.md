@@ -103,23 +103,12 @@ Start Lazydocker:
 sudo lazydocker
 ~~~
 
-# Uninstall Lazydocker
-If you decided to completely remove Lazydocker, delete the binary file:
-~~~
-sudo rm -rf /usr/local/bin/lazydocker
-~~~
-You can also remove Lazydocker config directory:
-~~~
-rm -rf ~/.config/lazydocker
-~~~
-
 # Install buildkit on docker on ubuntu¶
 Follow the official installation instructions from https://docs.docker.com/compose/install/ to install docker compose on your linux machine.
 
 ~~~
 git clone https://github.com/michaelmcandrew/civicrm-buildkit-docker.git
 cd civicrm-buildkit-docker
-sudo docker compose up -d
 ~~~
 Now you are ready to go.
 
